@@ -2,6 +2,16 @@
 @import 'partials/variables';
 
 // GLOBAL CLASSES
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row * {
+    padding: 0;
+}
+
 .primary-color {
     color: $primaryColor;
 }
@@ -16,6 +26,10 @@
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 // HEADER
@@ -46,9 +60,8 @@ header {
 
                 a {
                     color: $secondaryColor;
-                    text-decoration: none;
                     font-weight: bold;
-                    font-size: 14px;
+                    font-size: 15px;
                 }
 
                 i {
@@ -93,6 +106,48 @@ main {
             background-color: $tertiaryColor;
             position: absolute;
             bottom: -30px;
+        }
+    }
+
+    .content-card-container {
+        padding: 50px 0;
+
+        .card-col {
+            width: calc(100% / 6 - 24px);
+            margin: 12px;
+
+            .card-image {
+                height: 200px;
+                background-size: cover;
+                cursor: pointer;
+
+                &:hover {
+                    border: 4px solid $tertiaryColor;
+                }
+            }
+
+            .card-text {
+                padding: 20px 0;
+                cursor: pointer;
+
+                h3 {
+                    font-size: 15px;
+
+                    &:hover {
+                        text-shadow: 0 0 10px $tertiaryColor;
+                    }
+                }
+            }
+        }
+
+        .load-col {
+            margin-top: 50px;
+
+            a {
+                color: $primaryColor;
+                background-color: $tertiaryColor;
+                padding: 12px 65px;
+            }
         }
     }
 }

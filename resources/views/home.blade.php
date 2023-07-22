@@ -31,6 +31,27 @@
                     </div>
                 </div>
             </div>
+            <!-- Main Content Card Container -->
+            <div class="container content-card-container">
+                <div class="row flex-wrap">
+                    @foreach ($comics as $item)
+                        <!-- Main Content Card Col -->
+                        <div class="card-col">
+                            <!-- Card Image -->
+                            <div class="card-image w-100" style="background-image: url({{ $item['thumb'] }})">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card-text w-100">
+                                <h3>{{ Str::upper($item['series']) }}</h3>
+                            </div>
+                        </div>
+                    @endforeach
+                    <!-- Main Load Button Col -->
+                    <div class="col-12 load-col d-flex justify-content-center">
+                        <a href="{{ Route('home') }}" class="fw-bold">LOAD MORE</a>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>

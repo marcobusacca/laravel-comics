@@ -19,57 +19,80 @@ ul {
 }
 
 // HEADER
-.header-top-bar {
-    background-color: $tertiaryColor;
+header {
+    .header-top-bar {
+        background-color: $tertiaryColor;
 
-    ul {
-        display: flex;
-        justify-content: flex-end;
+        ul {
+            display: flex;
+            justify-content: flex-end;
 
-        li {
-            padding: 0px 20px;
-            font-size: 12px;
-            font-weight: bold;
+            li {
+                padding: 0px 20px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .header-bottom-bar {
+        ul {
+            li {
+                margin: 0 15px;
+                display: flex;
+                align-items: center;
+                border-bottom: 5px solid transparent;
+                cursor: pointer;
+
+                a {
+                    color: $secondaryColor;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+
+                i {
+                    margin: 0 10px;
+                    color: $tertiaryColor;
+                }
+            }
+        }
+
+        ul li.active {
+            border-bottom-color: $tertiaryColor;
+
+            a {
+                color: $tertiaryColor;
+            }
+        }
+
+        .search-bar {
+            width: 150px;
+            text-align: right;
+            color: $secondaryColor;
+            border: none;
+            border-bottom: 2px solid $tertiaryColor;
         }
     }
 }
 
-.header-bottom-bar {
-    ul {
-        li {
-            margin: 0 15px;
-            display: flex;
-            align-items: center;
-            border-bottom: 5px solid transparent;
-            cursor: pointer;
+// MAIN
+main {
+    background-color: #1C1C1C;
+    color: $primaryColor;
 
-            a {
-                color: $secondaryColor;
-                text-decoration: none;
-                font-weight: bold;
-                font-size: 14px;
-            }
+    .jumbotron-container {
+        height: 45vh;
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+        position: relative;
 
-            i {
-                margin: 0 10px;
-                color: $tertiaryColor;
-            }
+        h1 {
+            font-size: 25px;
+            padding: 15px 30px;
+            background-color: $tertiaryColor;
+            position: absolute;
+            bottom: -30px;
         }
-    }
-
-    ul li.active {
-        border-bottom-color: $tertiaryColor;
-
-        a {
-            color: $tertiaryColor;
-        }
-    }
-
-    .search-bar {
-        width: 150px;
-        text-align: right;
-        color: $secondaryColor;
-        border: none;
-        border-bottom: 2px solid $tertiaryColor;
     }
 }

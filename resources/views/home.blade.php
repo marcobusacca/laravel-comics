@@ -18,5 +18,19 @@
     </head>
     <body>
         @include('partials/header')
+        <main>
+            <!-- Jumbotron Container -->
+            <div class="container-fluid jumbotron-container">
+                <div class="container">
+                    <div class="jumbotron-row">
+                        <!-- Jumbtron Label Col -->
+                        <div class="jumbotron-col">
+                            <!-- Jumbtron Label -->
+                            <h1>CURRENT SERIES</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

@@ -179,7 +179,7 @@ footer {
                         }
                     }
 
-                    span {
+                    a {
                         color: $primaryColor;
                         margin-left: 20px;
                         font-size: 15px;
@@ -193,6 +193,53 @@ footer {
                     span {
                         cursor: pointer;
                     }
+                }
+            }
+        }
+    }
+
+    .menu-container {
+        padding: 10px 20px;
+        background-image: url(../img/footer-bg.jpg);
+        background-size: cover;
+        overflow-y: hidden;
+
+        .row {
+            padding: 10px;
+
+            h3 {
+                margin: 15px 0px;
+                color: $primaryColor;
+            }
+
+            li {
+                padding: 5px 0px;
+
+                a {
+                    color: #959595;
+
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+
+            p {
+                color: #959595;
+                font-size: 15px;
+            }
+
+            .background-logo-col {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                width: 100%;
+                padding-top: 100px;
+
+                img {
+                    position: absolute;
+                    width: 100%;
                 }
             }
         }

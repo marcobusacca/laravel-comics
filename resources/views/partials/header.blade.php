@@ -21,7 +21,7 @@
             <!-- Header Logo Col -->
             <div class="col-2 py-4">
                 <!-- Header Logo -->
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo">
             </div>
             <!-- Header NavBar Col -->
             <div class="col-8">

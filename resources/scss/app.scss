@@ -151,3 +151,50 @@ main {
         }
     }
 }
+
+// FOOTER
+footer {
+    .banner-container {
+        background-color: $tertiaryColor;
+
+        .container {
+            padding: 40px 0;
+
+            .row {
+                align-items: center;
+
+                .banner-col {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: calc(100% / 5 - 40px);
+                    margin: 0 20px;
+                    height: 100%;
+
+                    img {
+                        width: 20%;
+
+                        &:hover {
+                            filter: invert(100%);
+                        }
+                    }
+
+                    span {
+                        color: $primaryColor;
+                        margin-left: 20px;
+                        font-size: 15px;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+
+                    img,
+                    span {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -61,9 +61,9 @@
                 </ul>
             </div>
             <!-- Header SearchBar Col -->
-            <div class="col-2 d-flex align-items-center px-5">
+            <div class="col-2 d-flex align-items-center">
                 <!-- Header SearchBar -->
-                <div class="search-bar">
+                <div class="search-bar ms-5">
                     <span class="fw-bold">Search</span>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>

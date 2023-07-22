@@ -163,11 +163,48 @@
                 <!-- Footer Background Logo Col -->
                 <div class="col-6">
                     <div class="row">
-                        <div class="background-logo-col">
+                        <div class="background-logo-col ms-5">
                             <!-- Background Logo -->
                             <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="dc-background-logo">
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom Bar Container -->
+    <div class="container-fluid bottom-bar-container">
+        <div class="container">
+            <div class="row">
+                <!-- Bottom Bar Col -->
+                <div class="bottom-bar-col">
+                    <!-- Bottom Bar Sign Up Button -->
+                    <a href="{{ Route('home') }}" class="btn-sign-up">SIGN-UP NOW!</a>
+                </div>
+                <!-- Bottom Bar Col -->
+                <div class="bottom-bar-col">
+                    <!-- Bottom Bar Follow Us -->
+                    <h4>FOLLOW US</h4>
+                    <!-- Facebook Link -->
+                    <a href="{{ Route('home') }}">
+                        <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook-icon">
+                    </a>
+                    <!-- Twitter Link -->
+                    <a href="{{ Route('home') }}">
+                        <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="twitter-icon">
+                    </a>
+                    <!-- YouTube Link -->
+                    <a href="{{ Route('home') }}">
+                        <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="youtube-icon">
+                    </a>
+                    <!-- Pinterest Link -->
+                    <a href="{{ Route('home') }}">
+                        <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="pinterest-icon">
+                    </a>
+                    <!-- Periscope Link -->
+                    <a href="{{ Route('home') }}">
+                        <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="periscope-icon">
+                    </a>
                 </div>
             </div>
         </div>

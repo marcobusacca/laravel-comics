@@ -232,14 +232,52 @@ footer {
             .background-logo-col {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                position: relative;
-                width: 100%;
-                padding-top: 100px;
+            }
+        }
+    }
 
-                img {
-                    position: absolute;
-                    width: 100%;
+    .bottom-bar-container {
+        background-color: #303030;
+        padding: 25px;
+
+        .row {
+            align-items: center;
+
+            .bottom-bar-col {
+                display: flex;
+                align-items: center;
+                width: calc(100% / 2);
+                height: 100%;
+
+                .btn-sign-up {
+                    padding: 15px 10px;
+                    font-weight: 700;
+                    color: $primaryColor;
+                    border: 2px solid $tertiaryColor;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: black;
+                    }
+                }
+
+            }
+
+            .bottom-bar-col:last-child {
+                justify-content: flex-end;
+
+                h4 {
+                    margin: 0 20px;
+                    font-size: 17px;
+                    color: $tertiaryColor;
+                }
+
+                a {
+                    padding: 0px 10px;
+
+                    &:hover img {
+                        filter: brightness(1000%);
+                    }
                 }
             }
         }

@@ -60,8 +60,9 @@
                     </li>
                 </ul>
             </div>
+            <!-- Header SearchBar Col -->
             <div class="col-2 d-flex align-items-center px-5">
-                <!-- Header NavBar SearchBar -->
+                <!-- Header SearchBar -->
                 <div class="search-bar">
                     <span class="fw-bold">Search</span>
                     <i class="fa-solid fa-magnifying-glass"></i>

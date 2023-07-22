@@ -1,5 +1,4 @@
 <?php
-
 return [
     'comics' => [
         [
@@ -322,4 +321,3 @@ return [
         ],
     ]
 ];
-

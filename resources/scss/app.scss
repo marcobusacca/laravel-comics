@@ -80,9 +80,6 @@ header {
 
 // MAIN
 main {
-    background-color: #1C1C1C;
-    color: $primaryColor;
-
     .jumbotron-container {
         height: 45vh;
         background-image: url(../img/jumbotron.jpg);
@@ -98,91 +95,103 @@ main {
         }
     }
 
-    .content-card-container {
-        padding: 50px 0;
+    // INDEX PAGE
+    .index-page {
+        background-color: #1C1C1C;
+        color: $primaryColor;
 
-        .card-col {
-            width: calc(100% / 6 - 24px);
-            margin: 12px;
+        .content-card-container {
+            padding: 50px 0;
 
-            .card-image {
-                height: 200px;
-                background-size: cover;
-                cursor: pointer;
+            .card-col {
+                width: calc(100% / 6 - 24px);
+                margin: 12px;
 
-                &:hover {
-                    border: 4px solid $tertiaryColor;
-                }
-            }
-
-            .card-text {
-                padding: 20px 0;
-                cursor: pointer;
-
-                h3 {
-                    font-size: 15px;
-                    color: $primaryColor;
+                .card-image {
+                    height: 200px;
+                    background-size: cover;
+                    cursor: pointer;
 
                     &:hover {
-                        text-shadow: 0 0 10px $tertiaryColor;
+                        border: 4px solid $tertiaryColor;
+                    }
+                }
+
+                .card-text {
+                    padding: 20px 0;
+                    cursor: pointer;
+
+                    h3 {
+                        font-size: 15px;
+                        color: $primaryColor;
+
+                        &:hover {
+                            text-shadow: 0 0 10px $tertiaryColor;
+                        }
                     }
                 }
             }
+
+            .load-col {
+                margin-top: 50px;
+
+                a {
+                    color: $primaryColor;
+                    background-color: $tertiaryColor;
+                    padding: 12px 65px;
+                }
+            }
+
         }
 
-        .load-col {
-            margin-top: 50px;
+        .banner-container {
+            background-color: $tertiaryColor;
 
-            a {
-                color: $primaryColor;
-                background-color: $tertiaryColor;
-                padding: 12px 65px;
+            .container {
+                padding: 40px 0;
+
+                .row {
+                    align-items: center;
+
+                    .banner-col {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: calc(100% / 5 - 40px);
+                        margin: 0 20px;
+                        height: 100%;
+
+                        img {
+                            width: 20%;
+
+                            &:hover {
+                                filter: invert(100%);
+                            }
+                        }
+
+                        a {
+                            color: $primaryColor;
+                            margin-left: 20px;
+                            font-size: 15px;
+
+                            &:hover {
+                                color: black;
+                            }
+                        }
+
+                        img,
+                        span {
+                            cursor: pointer;
+                        }
+                    }
+                }
             }
         }
     }
 
-    .banner-container {
-        background-color: $tertiaryColor;
-
-        .container {
-            padding: 40px 0;
-
-            .row {
-                align-items: center;
-
-                .banner-col {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: calc(100% / 5 - 40px);
-                    margin: 0 20px;
-                    height: 100%;
-
-                    img {
-                        width: 20%;
-
-                        &:hover {
-                            filter: invert(100%);
-                        }
-                    }
-
-                    a {
-                        color: $primaryColor;
-                        margin-left: 20px;
-                        font-size: 15px;
-
-                        &:hover {
-                            color: black;
-                        }
-                    }
-
-                    img,
-                    span {
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
+    // SHOW PAGE
+    .show-page {
+        color: $secondaryColor;
     }
 }
 

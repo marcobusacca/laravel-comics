@@ -38,12 +38,15 @@
                         <!-- Main Content Card Col -->
                         <div class="card-col">
                             <!-- Card Image -->
-                            <div class="card-image w-100" style="background-image: url({{ $item['thumb'] }})">
-                            </div>
+                            <a href="{{ Route('home') }}">
+                                <div class="card-image w-100" style="background-image: url({{ $item['thumb'] }})"></div>
+                            </a>
                             <!-- Card Text -->
-                            <div class="card-text w-100">
-                                <h3>{{ Str::upper($item['series']) }}</h3>
-                            </div>
+                            <a href="{{ Route('home') }}">
+                                <div class="card-text w-100">
+                                    <h3>{{ Str::upper($item['series']) }}</h3>
+                                </div>
+                            </a>
                         </div>
                     @endforeach
                     <!-- Main Load Button Col -->

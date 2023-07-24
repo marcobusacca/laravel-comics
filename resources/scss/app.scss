@@ -12,18 +12,6 @@
     padding: 0;
 }
 
-.primary-color {
-    color: $primaryColor;
-}
-
-.secondary-color {
-    color: $secondaryColor;
-}
-
-.tertiary-color {
-    color: $tertiaryColor;
-}
-
 ul {
     list-style-type: none;
 }
@@ -45,6 +33,7 @@ header {
                 padding: 0px 20px;
                 font-size: 12px;
                 font-weight: bold;
+                color: $primaryColor;
             }
         }
     }
@@ -132,6 +121,7 @@ main {
 
                 h3 {
                     font-size: 15px;
+                    color: $primaryColor;
 
                     &:hover {
                         text-shadow: 0 0 10px $tertiaryColor;

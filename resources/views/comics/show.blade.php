@@ -28,7 +28,7 @@
                         <div class="col-12 text-white my-4">
                             <div class="row w-100">
                                 <!-- Comic Price -->
-                                <div class="col-8 d-flex justify-content-between bg-green border-black fw-bold py-2">
+                                <div class="col-8 d-flex justify-content-between bg-green border-black fw-bold py-2 px-4">
                                     <div>
                                         <span class="text-green">U.S. Price:</span>
                                         <span>{{ $comic['price'] }}</span>
@@ -50,9 +50,9 @@
                 </div>
                 <!-- Advertisement Col -->
                 <div class="col-4">
-                    <div class="row">
+                    <div class="row ps-5">
                         <!-- Advertisement Title -->
-                        <div class="col-12 text-end text-secondary">
+                        <div class="col-12 text-end text-secondary my-2">
                             <h5 class="fs-6">ADVERTISEMENT</h5>
                         </div>
                         <!-- Advertisement Banner -->
@@ -62,6 +62,111 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Comic Details Container -->
+        <div class="container-fluid comic-details-container bg-grey border">
+            <div class="container">
+                <div class="row">
+                    <!-- Comic Details Col -->
+                    <div class="col-12 pb-5">
+                        <div class="row">
+                            <!-- Comic Talent Col -->
+                            <div class="col-6">
+                                <div class="row pe-4">
+                                    <div class="col-12 my-4">
+                                        <!-- Talent Title -->
+                                        <h2 class="text-dark-blue fs-5 fw-bold">Talent</h2>
+                                    </div>
+                                    <!-- Art By -->
+                                    <div class="col-12 border-top border-bottom py-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <span class="text-dark-blue">Art by:</span>
+                                            </div>
+                                            <div class="col-8">
+                                                <p>
+                                                    @foreach ($comic['artists'] as $index => $artist)
+                                                        @if ($index === count($comic['artists']) - 1)
+                                                            <a href="#">{{$artist}}</a>
+                                                        @else
+                                                            <a href="#">{{$artist}},</a>
+                                                        @endif
+                                                    @endforeach
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Written By -->
+                                    <div class="col-12 border-bottom py-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <span class="text-dark-blue">Written by:</span>
+                                            </div>
+                                            <div class="col-8">
+                                                <p>
+                                                    @foreach ($comic['writers'] as $index => $writer)
+                                                        @if ($index === count($comic['writers']) - 1)
+                                                            <a href="#">{{$writer}}</a>
+                                                        @else
+                                                            <a href="#">{{$writer}},</a>
+                                                        @endif
+                                                    @endforeach
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Comic Specs Col -->
+                            <div class="col-6">
+                                <div class="row ps-4">
+                                    <div class="col-12 my-4">
+                                        <!-- Specs Title -->
+                                        <h2 class="text-dark-blue fs-5 fw-bold">Specs</h2>
+                                    </div>
+                                    <!-- Series -->
+                                    <div class="col-12 border-top border-bottom py-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <span class="text-dark-blue">Series:</span>
+                                            </div>
+                                            <div class="col-8">
+                                                <a href="#">{{ Str::upper($comic['series']) }}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Us Price -->
+                                    <div class="col-12 border-bottom py-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <span class="text-dark-blue">U.S. Price:</span>
+                                            </div>
+                                            <div class="col-8">
+                                                <span>{{ $comic['price'] }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- On Sale Date -->
+                                    <div class="col-12 border-bottom py-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <span class="text-dark-blue">On Sale Date:</span>
+                                            </div>
+                                            <div class="col-8">
+                                                <span>{{ $comic['sale_date'] }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Comic Menu Container -->
+        <div class="container-fluid comic-menu-container bg-grey border">
+            MENU
         </div>
     </div>
 @endsection

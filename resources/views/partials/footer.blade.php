@@ -12,25 +12,25 @@
                             <!-- Menu List -->
                             <ul>
                                 <li>
-                                    <a href="{{ Route('home') }}">Characters</a>
+                                    <a href="#">Characters</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Comics</a>
+                                    <a href="#">Comics</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Movies</a>
+                                    <a href="#">Movies</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">TV</a>
+                                    <a href="#">TV</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Games</a>
+                                    <a href="#">Games</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Videos</a>
+                                    <a href="#">Videos</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">News</a>
+                                    <a href="#">News</a>
                                 </li>
                             </ul>
                             <!-- List Title -->
@@ -38,10 +38,10 @@
                             <!-- Menu List -->
                             <ul>
                                 <li>
-                                    <a href="{{ Route('home') }}">Shop DC</a>
+                                    <a href="#">Shop DC</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Shop DC Collectibles</a>
+                                    <a href="#">Shop DC Collectibles</a>
                                 </li>
                             </ul>
                         </div>
@@ -51,37 +51,37 @@
                             <!-- Menu List -->
                             <ul>
                                 <li>
-                                    <a href="{{ Route('home') }}">Terms Of Use</a>
+                                    <a href="#">Terms Of Use</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Privacy policy (New)</a>
+                                    <a href="#">Privacy policy (New)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Ad Choices</a>
+                                    <a href="#">Ad Choices</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Advertising</a>
+                                    <a href="#">Advertising</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Jobs</a>
+                                    <a href="#">Jobs</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Subscriptions</a>
+                                    <a href="#">Subscriptions</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Talent Workshops</a>
+                                    <a href="#">Talent Workshops</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">CPSC Certificates</a>
+                                    <a href="#">CPSC Certificates</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Ratings</a>
+                                    <a href="#">Ratings</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Shop Help</a>
+                                    <a href="#">Shop Help</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">Contact Us</a>
+                                    <a href="#">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -91,19 +91,19 @@
                             <!-- Menu List -->
                             <ul>
                                 <li>
-                                    <a href="{{ Route('home') }}">DC</a>
+                                    <a href="#">DC</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">MAD Magazine</a>
+                                    <a href="#">MAD Magazine</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">DC Kids</a>
+                                    <a href="#">DC Kids</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">DC Universe</a>
+                                    <a href="#">DC Universe</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('home') }}">DC Power Visa</a>
+                                    <a href="#">DC Power Visa</a>
                                 </li>
                             </ul>
                         </div>
@@ -111,10 +111,10 @@
                     <div class="col-12 my-3">
                         <p>
                             All Site Content TM and 2020 DC Entertainment, unless otherwise
-                            <a href="{{ Route('home') }}">noted here.</a>
+                            <a href="#">noted here.</a>
                             All rights reserved.
                             <br>
-                            <a href="{{ Route('home') }}">Cookies Settings</a>
+                            <a href="#">Cookies Settings</a>
                         </p>
                     </div>
                 </div>
@@ -144,23 +144,23 @@
                     <!-- Bottom Bar Follow Us -->
                     <h4>FOLLOW US</h4>
                     <!-- Facebook Link -->
-                    <a href="{{ Route('home') }}">
+                    <a href="#">
                         <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook-icon">
                     </a>
                     <!-- Twitter Link -->
-                    <a href="{{ Route('home') }}">
+                    <a href="#">
                         <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="twitter-icon">
                     </a>
                     <!-- YouTube Link -->
-                    <a href="{{ Route('home') }}">
+                    <a href="#">
                         <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="youtube-icon">
                     </a>
                     <!-- Pinterest Link -->
-                    <a href="{{ Route('home') }}">
+                    <a href="#">
                         <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="pinterest-icon">
                     </a>
                     <!-- Periscope Link -->
-                    <a href="{{ Route('home') }}">
+                    <a href="#">
                         <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="periscope-icon">
                     </a>
                 </div>

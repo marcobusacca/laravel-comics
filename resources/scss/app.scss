@@ -8,8 +8,9 @@
     box-sizing: border-box;
 }
 
-.row {
+.row * {
     margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -33,6 +34,10 @@ a {
 
 .bg-green {
     background-color: #55BA59;
+}
+
+.bg-grey {
+    background-color: #F6F6F6;
 }
 
 .border-black {
@@ -234,6 +239,8 @@ main {
                 height: 250px;
             }
         }
+
+        .comic-details-container {}
     }
 }
 

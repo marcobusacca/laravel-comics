@@ -30,34 +30,34 @@
                 <!-- Header NavBar List -->
                 <ul class="d-flex w-100 h-100">
                     <li class="{{ Route::currentRouteName() === 'characters' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">CHARACTERS</a>
+                        <a href="#">CHARACTERS</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'home' ? 'active h-100' : 'h-100' }}">
                         <a href="{{ Route('home') }}">COMICS</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'movies' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">MOVIES</a>
+                        <a href="#">MOVIES</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'tv' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">TV</a>
+                        <a href="#">TV</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'games' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">GAMES</a>
+                        <a href="#">GAMES</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'collectibles' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">COLLECTIBLES</a>
+                        <a href="#">COLLECTIBLES</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'videos' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">VIDEOS</a>
+                        <a href="#">VIDEOS</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'fans' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">FANS</a>
+                        <a href="#">FANS</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'news' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">NEWS</a>
+                        <a href="#">NEWS</a>
                     </li>
                     <li class="{{ Route::currentRouteName() === 'shop' ? 'active h-100' : 'h-100' }}">
-                        <a href="{{ Route('home') }}">SHOP</a>
+                        <a href="#">SHOP</a>
                         <i class="fa-solid fa-caret-down"></i>
                     </li>
                 </ul>

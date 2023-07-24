@@ -192,6 +192,17 @@ main {
     // SHOW PAGE
     .show-page {
         color: $secondaryColor;
+
+        .comic-banner-container {
+            background-color: $tertiaryColor;
+            padding: 50px 0;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: -210px;
+            }
+        }
     }
 }
 

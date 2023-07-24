@@ -17,17 +17,17 @@
         <!-- Main Content Card Container -->
         <div class="container content-card-container">
             <div class="row flex-wrap">
-                @foreach ($comics as $item)
+                @foreach ($comics as $comic)
                     <!-- Main Content Card Col -->
                     <div class="card-col">
                         <!-- Card Image -->
                         <a href="{{ Route('home') }}">
-                            <div class="card-image w-100" style="background-image: url({{ $item['thumb'] }})"></div>
+                            <div class="card-image w-100" style="background-image: url({{ $comic['thumb'] }})"></div>
                         </a>
                         <!-- Card Text -->
                         <a href="{{ Route('home') }}">
                             <div class="card-text w-100">
-                                <h3>{{ Str::upper($item['series']) }}</h3>
+                                <h3>{{ Str::upper($comic['series']) }}</h3>
                             </div>
                         </a>
                     </div>

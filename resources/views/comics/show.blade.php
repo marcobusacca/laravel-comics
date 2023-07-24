@@ -10,7 +10,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="{{ $comic['thumb'] }}" alt="">
+                            <img src="{{ $comic['thumb'] }}" alt="comic-banner">
                         </div>
                     </div>
                 </div>

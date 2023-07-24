@@ -1,46 +1,4 @@
 <footer>
-    <!-- Footer Banner Container -->
-    <div class="container-fluid banner-container">
-        <div class="container">
-            <div class="row">
-                <!-- Banner Col -->
-                <div class="banner-col">
-                    <!-- Banner Image -->
-                    <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="banner-image">
-                    <!-- Banner Text -->
-                    <a href="{{ Route('home') }}">DIGITAL COMICS</a>
-                </div>
-                <!-- Banner Col -->
-                <div class="banner-col">
-                    <!-- Banner Image -->
-                    <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="banner-image">
-                    <!-- Banner Text -->
-                    <a href="{{ Route('home') }}">DC MERCHANDISE</a>
-                </div>
-                <!-- Banner Col -->
-                <div class="banner-col">
-                    <!-- Banner Image -->
-                    <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="banner-image">
-                    <!-- Banner Text -->
-                    <a href="{{ Route('home') }}">SUBSCRIPTION</a>
-                </div>
-                <!-- Banner Col -->
-                <div class="banner-col">
-                    <!-- Banner Image -->
-                    <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="banner-image">
-                    <!-- Banner Text -->
-                    <a href="{{ Route('home') }}">COMIC SHOP LOCATOR</a>
-                </div>
-                <!-- Banner Col -->
-                <div class="banner-col">
-                    <!-- Banner Image -->
-                    <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="banner-image">
-                    <!-- Banner Text -->
-                    <a href="{{ Route('home') }}">DC POWER VISA</a>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Footer Menu Container -->
     <div class="container-fluid menu-container">
         <div class="container">

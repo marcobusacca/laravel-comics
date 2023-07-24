@@ -140,10 +140,7 @@ main {
             }
         }
     }
-}
 
-// FOOTER
-footer {
     .banner-container {
         background-color: $tertiaryColor;
 
@@ -187,7 +184,10 @@ footer {
             }
         }
     }
+}
 
+// FOOTER
+footer {
     .menu-container {
         padding: 10px 20px;
         background-image: url(../img/footer-bg.jpg);

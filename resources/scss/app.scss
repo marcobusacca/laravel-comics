@@ -8,17 +8,37 @@
     box-sizing: border-box;
 }
 
-.row * {
-    padding: 0;
+.row {
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
+
+
+// UTILITIES
+.text-dark-blue {
+    color: #003F5E;
+}
+
+.text-green {
+    color: #BAF980;
+}
+
+.bg-green {
+    background-color: #55BA59;
+}
+
+.border-black {
+    border: thin solid black;
+}
+
 
 // HEADER
 header {
@@ -193,6 +213,10 @@ main {
     .show-page {
         color: $secondaryColor;
 
+        .container {
+            padding: 0 180px;
+        }
+
         .comic-banner-container {
             background-color: $tertiaryColor;
             padding: 50px 0;
@@ -201,6 +225,13 @@ main {
             img {
                 position: absolute;
                 top: -210px;
+            }
+        }
+
+        .comic-description-container {
+            .advertisement {
+                width: 100%;
+                height: 250px;
             }
         }
     }

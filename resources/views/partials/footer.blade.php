@@ -108,7 +108,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3">
                         <p>
                             All Site Content TM and 2020 DC Entertainment, unless otherwise
                             <a href="{{ Route('home') }}">noted here.</a>

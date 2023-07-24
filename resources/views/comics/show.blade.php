@@ -175,7 +175,7 @@
         <div class="container-fluid comic-menu-container bg-grey border">
             <div class="container">
                 <div class="row">
-                    <div class="col-3 border p-3">
+                    <div class="col-3 border-start border-end p-3">
                         <a href="#">
                             <div class="row">
                                 <div class="col-8 text-secondary">
@@ -187,7 +187,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 border p-3">
+                    <div class="col-3 border-start border-end p-3">
                         <a href="#">
                             <div class="row">
                                 <div class="col-8 text-secondary">
@@ -199,7 +199,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 border p-3">
+                    <div class="col-3 border-start border-end p-3">
                         <a href="#">
                             <div class="row">
                                 <div class="col-8 text-secondary">
@@ -211,7 +211,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 fs-6 border p-3">
+                    <div class="col-3 border-start border-end p-3">
                         <a href="#">
                             <div class="row">
                                 <div class="col-8 text-secondary">
@@ -228,4 +228,3 @@
         </div>
     </div>
 @endsection
-

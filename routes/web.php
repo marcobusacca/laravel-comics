@@ -14,13 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     $comics = config('db.comics');
+
     return view('comics.index', compact('comics'));
+
 })->name('home');
 
 
 Route::get('/{comic}', function ($id) {
+
     $comics = config('db.comics');
-    $comic = $comics[$id];
-    return view('comics.show', compact('comic'));
+
+    if ($id >= 0 && $id < count($comics)){
+
+        $comic = $comics[$id];
+
+        return view('comics.show', compact('comic'));
+
+    } else{
+        abort('404');
+    }
+
 })->name('comic');
